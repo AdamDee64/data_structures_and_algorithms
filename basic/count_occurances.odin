@@ -3,7 +3,7 @@ package main
 import "core:fmt"
 
 // a function that takes in a string and a character and returns the number of times that character appears in the string.
-// a character in odin is called a rune, which covers all encodings
+// a character encoded with UTF-8 in odin is called a rune
 
 count_occurances :: proc(str : string, c : rune) -> i64 {
    out : i64 = 0
